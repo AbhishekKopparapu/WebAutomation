@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+This code is just a sample program. Don't try to run this code, it won't run because I didn't provide my actual Corrigo credentials and company name
+for obvious reasons. 
 
-This is a temporary script file.
+Also for merging or loading data you need a masterfile "Noshows_DB" which is in my local, so you can expect errors if you run the code.
 """
 
 from selenium import webdriver
