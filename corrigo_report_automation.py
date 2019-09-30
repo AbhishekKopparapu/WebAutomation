@@ -67,6 +67,7 @@ if(bol):
     data[['Date created','Date Completed', 'Notes Date']] = data[['Date created','Date Completed','Notes Date']].apply(pd.to_datetime)
 
 #Concatenating today's data with existing data (ETL Incremental loading)
+Noshows_DB = pd.read_csv("Noshows_DB")
 frames = ['Noshows_DB','data']
 Noshows_DB = pd.con(frames)
 
